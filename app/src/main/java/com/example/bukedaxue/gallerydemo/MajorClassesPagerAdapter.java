@@ -1,14 +1,16 @@
 package com.example.bukedaxue.gallerydemo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.bukedaxue.gallerydemo.activity.LeftFlowActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,8 +59,8 @@ public class MajorClassesPagerAdapter extends PagerAdapter {
         TextView tvMajorClassLiveDuration = view.findViewById(R.id.tv_major_class_live_duration);
 
         tvMajorClassNum.setText(String.valueOf(item.getService_count()));
-        tvMajorClassVideoDuration.setText(item.getVideo_duration()+"小时录播课程内容");
-        tvMajorClassLiveDuration.setText(item.getLive_duration()+"小时直播课程内容");
+//        tvMajorClassVideoDuration.setText(item.getVideo_duration() + "小时录播课程内容");
+//        tvMajorClassLiveDuration.setText(item.getLive_duration() + "小时直播课程内容");
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +68,9 @@ public class MajorClassesPagerAdapter extends PagerAdapter {
                 /*if (listener != null) {
                     listener.onItemClick(position);
                 }*/
+                Intent intent = new Intent(mContext, LeftFlowActivity.class);
+                mContext.startActivity(intent);
+
             }
         });
 

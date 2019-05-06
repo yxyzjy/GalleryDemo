@@ -13,7 +13,7 @@
         <android.support.v4.view.ViewPager
             android:id="@+id/vp_grallery"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="500dp"
             android:clipToPadding="false"
             android:paddingLeft="30dp"
             android:paddingRight="30dp" />

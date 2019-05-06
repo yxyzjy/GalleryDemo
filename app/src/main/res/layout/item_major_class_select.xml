@@ -72,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:maxLines="1"
-                android:text="180小时录播课内容"
+                android:text="点击点击进入LeftFlowAct"
                 android:textColor="#333333"
                 android:textSize="16dp" />
 
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:maxLines="1"
-                android:text="180小时录播课内容"
+                android:text="点击进入LeftFlowAct"
                 android:textColor="#333333"
                 android:textSize="16dp" />
 
@@ -93,7 +93,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="点击查看班型介绍"
+                android:text="点击进入LeftFlowAct"
+                android:background="#ececec"
                 android:textColor="#45362c" />
         </LinearLayout>
     </android.support.v7.widget.CardView>

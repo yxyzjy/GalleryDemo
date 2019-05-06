@@ -1,4 +1,4 @@
-package com.example.bukedaxue.gallerydemo;
+package com.example.bukedaxue.gallerydemo.activity;
 
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.example.bukedaxue.gallerydemo.GalleryTestBean;
+import com.example.bukedaxue.gallerydemo.MajorClassesPagerAdapter;
+import com.example.bukedaxue.gallerydemo.R;
+import com.example.bukedaxue.gallerydemo.ScaleAlphaPageTransformer;
 
 import java.util.ArrayList;
 
